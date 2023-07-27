@@ -1,0 +1,242 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    list-style: none;
+}
+
+
+.logo{
+    /* background-color: rebeccapurple; */
+}
+
+.img-logo{
+    width: 160px;
+    margin-top: 10px;
+}
+/* header{
+    padding-top: 30px;
+    background-color: #20364B;
+} */
+.navbar{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #20364B;
+    padding-left: 70px;
+   
+   
+}
+.navs{
+    display: flex;
+    gap: 3rem;
+}
+.nav{
+    display: flex;
+    /* background-color: red; */
+    gap: 3rem;
+    align-items: center;
+    padding-right: 70px;
+}
+
+.fa-solid{
+    background-color: #FDC220;
+    padding: 10px;
+    border-radius: 50%;
+    border: 7px solid #75653A;
+}
+.fa-bars{
+    display: none;
+}
+
+.nav-links{
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+
+/* ****************Hero Section starts******************** */
+
+.hero{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20364B;
+    /* overflow-x: auto; */
+    padding-bottom: 40px;
+}
+
+.left{
+    margin-top: 45px;
+    /* background-color: red; */
+    width: 60%;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+.left h1{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+.left h1 span{
+    color: #FDC220;
+}
+
+.left p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 500px;
+    color: whitesmoke;
+    font-weight: 400;
+}
+.left input{
+    width: fit-content;
+    padding: 10px 0;
+    padding-left: 20px;
+    padding-right: 90px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+    
+}
+
+.left button{
+    width: fit-content;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FDC220;
+    color: #20364B;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.profile{
+    width:600px;
+
+}
+
+.right{
+    /* margin-top: -100px; */
+    margin-right: 40px;
+    width: 50%;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: start;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 880px) {
+    /******************** Navigation Starts *******************************/
+    
+    body{
+        background-color: red;
+    }
+    .navs{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .nav{
+        gap: 1rem;
+        padding-right: 30px;
+    }
+    .navbar{
+        padding-left: 30px;
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+       
+    }
+    .left{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left h1{
+        font-size: 45px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .left input{
+        padding-right: 50px;
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .right img{
+        margin-top: 20px;
+        width: 300px;
+    }
+    .left p{
+        width: fit-content;
+        text-align: center;
+    }
+
+    
+    /********************** Navigation ends ***********************************/
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
